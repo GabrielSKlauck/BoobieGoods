@@ -6,8 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Menu.unity
+    guid: e123080a02852b24fb70fdad2692e856
+  - enabled: 1
+    path: Assets/Scenes/AnimalSelect.unity
+    guid: 2cc1c97defa71c247845f58ff1715d2a
+  - enabled: 1
+    path: Assets/Scenes/CameraRAScene.unity
+    guid: e241e08d14b0a324b825c1e63fcc14e6
+  - enabled: 1
+    path: Assets/Scenes/InfosAnimalScene.unity
+    guid: 80d2a01c6c2fc9d4b8955f9cd009aad4
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

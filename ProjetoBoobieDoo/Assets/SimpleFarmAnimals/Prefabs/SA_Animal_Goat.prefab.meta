@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a63e4af9b16b0e49bcca60ecf52f421
+timeCreated: 1480207159
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76405
+  packageName: Simple Farm Animals - Cartoon Assets
+  packageVersion: 1.0
+  assetPath: Assets/SimpleFarmAnimals/Prefabs/SA_Animal_Goat.prefab
+  uploadId: 148306

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f9ce2461673e044592bcbf5c24f81d8
+timeCreated: 1480205817
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76405
+  packageName: Simple Farm Animals - Cartoon Assets
+  packageVersion: 1.0
+  assetPath: Assets/SimpleFarmAnimals/Models/SA_Animal_GoatSheep.controller
+  uploadId: 148306

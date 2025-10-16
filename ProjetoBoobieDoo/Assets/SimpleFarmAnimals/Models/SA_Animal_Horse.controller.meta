@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d09d925d62f9924488c35d1fc609194
+timeCreated: 1480210700
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76405
+  packageName: Simple Farm Animals - Cartoon Assets
+  packageVersion: 1.0
+  assetPath: Assets/SimpleFarmAnimals/Models/SA_Animal_Horse.controller
+  uploadId: 148306

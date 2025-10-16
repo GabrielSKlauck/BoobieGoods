@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93cb479d468030d41adf46954015450d
+timeCreated: 1480208003
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76405
+  packageName: Simple Farm Animals - Cartoon Assets
+  packageVersion: 1.0
+  assetPath: Assets/SimpleFarmAnimals/Prefabs/SA_Animal_Pig.prefab
+  uploadId: 148306

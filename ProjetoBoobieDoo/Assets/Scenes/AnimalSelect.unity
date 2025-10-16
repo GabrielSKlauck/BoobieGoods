@@ -478,9 +478,11 @@ MonoBehaviour:
   animalCard: {fileID: 3664557298438844527, guid: 2214d6c3ddaa6234bb4da7c78a17b836,
     type: 3}
   animalTargets:
-  - {fileID: 2800000, guid: f0d9bcb0daf31468385cd551f205df5a, type: 3}
-  - {fileID: 2800000, guid: f0d9bcb0daf31468385cd551f205df5a, type: 3}
-  - {fileID: 2800000, guid: f0d9bcb0daf31468385cd551f205df5a, type: 3}
+  - {fileID: 2800000, guid: b0b2ea9124526ed4e9272465bd2a8876, type: 3}
+  - {fileID: 2800000, guid: 3f97d0591c2351346809c7261158a577, type: 3}
+  - {fileID: 2800000, guid: a12d0578acf3e924f81af944ec7c9c9a, type: 3}
+  - {fileID: 2800000, guid: 91c17c6309a641c478b9ae3dd5df3b68, type: 3}
+  - {fileID: 2800000, guid: 83304fec34a454c498316dcd97b056b5, type: 3}
 --- !u!1 &934551585
 GameObject:
   m_ObjectHideFlags: 0

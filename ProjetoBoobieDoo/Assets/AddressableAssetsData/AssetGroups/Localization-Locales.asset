@@ -16,19 +16,19 @@ MonoBehaviour:
   m_GUID: 4d7c4aa28ae6bf64dbebf70f08e048af
   m_SerializeEntries:
   - m_GUID: 68331a5e48b923d4985616fc9454f386
-    m_Address: English (United States) (en-US)
+    m_Address: English (en-US)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a6650e885862984fb823292eea124b7
-    m_Address: Spanish (Spain) (es-ES)
+    m_Address: Spanish (es-ES)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea979077aa704e648bd83e97549313e8
-    m_Address: Portuguese (Brazil) (pt-BR)
+    m_Address: Portuguese (pt-BR)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

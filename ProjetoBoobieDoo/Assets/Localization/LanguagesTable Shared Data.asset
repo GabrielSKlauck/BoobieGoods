@@ -35,12 +35,32 @@ MonoBehaviour:
     m_Key: ConfigurationSound
     m_Metadata:
       m_Items: []
+  - m_Id: 2554840436432896
+    m_Key: GeneralVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555125049319424
+    m_Key: SoundEffects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555262354055168
+    m_Key: MusicVolume
+    m_Metadata:
+      m_Items: []
   - m_Id: 6388923830272
     m_Key: ConfigurationLanguage
     m_Metadata:
       m_Items: []
+  - m_Id: 2555431007019008
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
   - m_Id: 2936663511040
     m_Key: ConfigurationHelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555540537073664
+    m_Key: HelpButton
     m_Metadata:
       m_Items: []
   m_Metadata:

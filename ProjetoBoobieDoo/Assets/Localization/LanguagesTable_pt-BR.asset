@@ -46,6 +46,26 @@ MonoBehaviour:
     m_Localized: Idioma
     m_Metadata:
       m_Items: []
+  - m_Id: 2554840436432896
+    m_Localized: Volume Geral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555125049319424
+    m_Localized: Efeitos Sonoros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555262354055168
+    m_Localized: "Volume da M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555431007019008
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2555540537073664
+    m_Localized: Aperte aqui
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

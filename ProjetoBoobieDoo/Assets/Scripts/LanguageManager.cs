@@ -15,7 +15,19 @@ public class LanguageManager : MonoBehaviour
             {
                 languageDropdown.options.Add(new TMP_Dropdown.OptionData(locale.LocaleName));
             }
-            languageDropdown.value = LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale);
+            
+            int savedIndex = -1;
+            if (PlayerPrefs.HasKey("SavedLocalizationIndex"))
+            {
+                savedIndex = PlayerPrefs.GetInt("SavedLocalizationIndex");
+            }
+
+            int defaultIndex = LocalizationSettings.AvailableLocales.Locales.IndexOf(LocalizationSettings.SelectedLocale);
+            languageDropdown.value = (savedIndex >= 0 && savedIndex < LocalizationSettings.AvailableLocales.Locales.Count)
+                ? savedIndex
+                : defaultIndex;
+
+            languageDropdown.RefreshShownValue();
             languageDropdown.onValueChanged.AddListener(ChangeLanguage);
         }
     }
@@ -23,5 +35,7 @@ public class LanguageManager : MonoBehaviour
     void ChangeLanguage(int index)
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
+        PlayerPrefs.SetInt("SavedLocalizationIndex", index);
+        PlayerPrefs.Save();
     }
 }

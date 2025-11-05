@@ -22,7 +22,7 @@ public class TesteAPI : MonoBehaviour
     async void Start()
     {
         Debug.Log("Startou");
-        string corDesenho = await RequisicaoGemini("C:\\Users\\2xthe\\Downloads\\GalinhaPintada.jpg");
+        string corDesenho = await RequisicaoGemini("C:\\Users\\gklauck\\Documents\\GalinhaColorido.jpg");
         Color newColor;
         if (ColorUtility.TryParseHtmlString(corDesenho, out newColor))
         {

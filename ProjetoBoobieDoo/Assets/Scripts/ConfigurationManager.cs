@@ -1,13 +1,38 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+using UnityEngine.UI;
 
 public class ConfigurationManager : MonoBehaviour
 {
+    [Header("Volume Geral")]
+    [SerializeField]
+    private Slider _generalVolumeSlider;
+
+    [Header("Efeitos Sonoros")]
+    [SerializeField]
+    private Slider _soundEffectSlider;
+
+    [Header("Volume da música")]
+    [SerializeField]
+    private Slider _musicVolumeSlider;
+
     private IEnumerator Start()
     {
         yield return LocalizationSettings.InitializationOperation;
 
+        if (PlayerPrefs.HasKey("SavedGeneralVolume"))
+        {
+            _generalVolumeSlider.value = PlayerPrefs.GetInt("SavedGeneralVolume");
+        }
+        if (PlayerPrefs.HasKey("SavedSoundEffect"))
+        {
+            _soundEffectSlider.value = PlayerPrefs.GetInt("SavedSoundEffect");
+        }
+        if (PlayerPrefs.HasKey("SavedMusicVolume"))
+        {
+            _musicVolumeSlider.value = PlayerPrefs.GetInt("SavedMusicVolume");
+        }
         if (PlayerPrefs.HasKey("SavedLocalizationIndex"))
         {
             int savedIndex = PlayerPrefs.GetInt("SavedLocalizationIndex");

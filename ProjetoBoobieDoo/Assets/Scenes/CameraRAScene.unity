@@ -387,7 +387,6 @@ GameObject:
   - component: {fileID: 441283892}
   - component: {fileID: 441283891}
   - component: {fileID: 441283890}
-  - component: {fileID: 441283894}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -501,21 +500,6 @@ Transform:
   - {fileID: 1862039326}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &441283894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441283889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae70c00f2a682f64dadbac6b25410d4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imagemCapturada: {fileID: 0}
-  detectColor: {fileID: 0}
-  imageTarget: {fileID: 0}
 --- !u!1001 &1862039325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -614,7 +598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2050662370}
-  - component: {fileID: 2050662371}
+  - component: {fileID: 2050662372}
   m_Layer: 0
   m_Name: AnimalColorManager
   m_TagString: Untagged
@@ -637,7 +621,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2050662371
+--- !u!114 &2050662372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -646,14 +630,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2050662369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47022a8c6e3cc6d469761ef4f0fec900, type: 3}
+  m_Script: {fileID: 11500000, guid: ae70c00f2a682f64dadbac6b25410d4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objeto: {fileID: 0}
-  galinhaModel: {fileID: 0}
-  porcoModel: {fileID: 0}
-  vacaModel: {fileID: 0}
-  _imagem: {fileID: 0}
+  imagemCapturada: {fileID: 0}
+  detectColor: {fileID: 0}
+  imageTarget: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
